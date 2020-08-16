@@ -29,3 +29,8 @@ alphabets_to_words =  {
         'Y': 'Yankee',
         'Z': 'Zulu',
     }
+
+print("-----------------")
+print("\nTranslating '{}' to Nato Photentic Alphabets.....\n".format(text.upper()))
+for c in text:
+    print("{} : {}".format(c.upper(), alphabets_to_words[c.upper()]))
