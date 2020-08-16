@@ -4,8 +4,20 @@ This script when executed from command line will breakdown each word argument as
 
 ## Sample execution
 
+
+#### Using python
+
 ``` python
 $ python translate.py one two three
+```
+
+#### Using bash script
+``` bash
+$ ./translate one two three
+```
+#### Sample output
+
+``` bash
 -----------------
 
 Translating to Nato Photentic Alphabets.....
