@@ -28,6 +28,19 @@ alphabets_to_words =  {
         'X': 'X-ray	',
         'Y': 'Yankee',
         'Z': 'Zulu',
+
+        '0': 'Zero, nadazero',
+        '1': 'One, unaone',
+        '2': 'Two, bissotwo',
+        '3': 'Three, terrathree',
+        '4': 'Four, kartefour',
+        '5': 'Five, pantafive',
+        '6': 'Six, soxisix',
+        '7': 'Seven, setteseven',
+        '8': 'Eight, oktoeight',
+        '9': 'Nine, novenine',
+        '.': 'Decimal, point',
+        '-': 'Dash'
     }
 for word in sys.argv[1:]:
   print("-----------------")
