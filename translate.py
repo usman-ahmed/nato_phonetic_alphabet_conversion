@@ -29,7 +29,6 @@ alphabets_to_words =  {
         'Y': 'Yankee',
         'Z': 'Zulu',
     }
-
 for word in sys.argv[1:]:
   print("-----------------")
   print("\nTranslating to Nato Photentic Alphabets.....\n[ {} ]".format(
