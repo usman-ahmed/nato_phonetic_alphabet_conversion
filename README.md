@@ -8,12 +8,12 @@ This script when executed from command line will breakdown each word argument as
 #### Using python
 
 ``` python
-$ python translate.py one two three
+$ python translate.py  one two S2F4
 ```
 
 #### Using bash script
 ``` bash
-$ ./translate one two three
+$ ./translate.sh one two S2F4
 ```
 #### Sample output
 
@@ -35,10 +35,9 @@ O : Oscar
 -----------------
 
 Translating to Nato Photentic Alphabets.....
-[ THREE ]
-T : Tango
-H : Hotel
-R : Romeo
-E : Echo
-E : Echo
+[ S2F4 ]
+S : Sierra
+2 : Two, bissotwo
+F : Foxtrot
+4 : Four, kartefour
 ```
