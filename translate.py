@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-text = "sample"
+import sys
 
 alphabets_to_words =  {
         'A': 'Alfa',
@@ -30,7 +30,9 @@ alphabets_to_words =  {
         'Z': 'Zulu',
     }
 
-print("-----------------")
-print("\nTranslating '{}' to Nato Photentic Alphabets.....\n".format(text.upper()))
-for c in text:
+for word in sys.argv[1:]:
+  print("-----------------")
+  print("\nTranslating to Nato Photentic Alphabets.....\n[ {} ]".format(
+        word.upper()))
+  for c in word:
     print("{} : {}".format(c.upper(), alphabets_to_words[c.upper()]))
